@@ -1,0 +1,40 @@
+{
+    "name": "ksdev/mbank-mt940-parser",
+    "description": "Parser for the mBank MT940 daily statement export file format.",
+    "keywords": [
+        "ksdev",
+        "mbank-mt940-parser"
+    ],
+    "homepage": "https://github.com/ksdev/mbank-mt940-parser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ksdev",
+            "email": "kontakt@ksdev.pl",
+            "homepage": "https://ksdev.pl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ksdev\\Mt940Parser\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ksdev\\Mt940Parser\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
