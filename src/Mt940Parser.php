@@ -15,8 +15,8 @@ class Mt940Parser
      */
     public function parse($filePath)
     {
-        $preparedFile = $this->prepareFile($filePath);
-        $statement = $this->parseContent($preparedFile);
+        $preparedArray = $this->prepareFile($filePath);
+        $statement = $this->parseContent($preparedArray);
 
         return $statement;
     }
