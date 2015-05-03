@@ -2,6 +2,8 @@
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/ksdev-pl/mbank-mt940-parser/master.svg?style=flat-square)](https://travis-ci.org/ksdev-pl/mbank-mt940-parser)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/ksdev-pl/mbank-mt940-parser.svg?style=flat-square)](https://scrutinizer-ci.com/g/ksdev-pl/mbank-mt940-parser/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/ksdev-pl/mbank-mt940-parser.svg?style=flat-square)](https://scrutinizer-ci.com/g/ksdev-pl/mbank-mt940-parser)
 
 Parser for the mBank MT940 daily statement export file format.
 
@@ -16,11 +18,11 @@ $ composer require ksdev/mbank-mt940-parser
 ## Usage
 
 ``` php
-$parser = new \Ksdev\Mt940Parser\Mt940Parser();
+$parser = new Ksdev\Mt940Parser\Mt940Parser();
 try {
     $statement = $parser->parse('path/to/MT940.txt');
 }
-catch (\Exception $e) {
+catch (Exception $e) {
     //
 }
 ```
