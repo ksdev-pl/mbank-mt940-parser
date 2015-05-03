@@ -1,6 +1,7 @@
 # mBank MT940 parser
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Build Status](https://img.shields.io/travis/ksdev-pl/mbank-mt940-parser/master.svg?style=flat-square)](https://travis-ci.org/ksdev-pl/mbank-mt940-parser)
 
 Parser for the mBank MT940 daily statement export file format.
 
