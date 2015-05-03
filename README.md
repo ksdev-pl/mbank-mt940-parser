@@ -105,7 +105,7 @@ array(
 $ phpunit
 ```
 
-## Word of advice :warning:
+## Caution :warning:
 
 Analyze the code thoroughly before you use it and adjust it to your needs - this project was made for private use.
 
