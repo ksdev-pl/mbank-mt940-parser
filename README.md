@@ -84,14 +84,14 @@ array(
                     'balance'  => 'D',
                     'date'     => '071023',
                     'currency' => 'EUR',
-                    'amount'   => '944,03',
+                    'amount'   => '974.87',
                 ),
             'availableBalance' =>
                 array(
                     'balance'  => 'D',
                     'date'     => '071023',
                     'currency' => 'EUR',
-                    'amount'   => '944,03',
+                    'amount'   => '974.87',
                 ),
         ),
     1 =>
