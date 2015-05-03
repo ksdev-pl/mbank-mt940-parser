@@ -16,7 +16,7 @@ $ composer require ksdev/mbank-mt940-parser
 ## Usage
 
 ``` php
-$parser = new Mt940Parser();
+$parser = new \Ksdev\Mt940Parser\Mt940Parser();
 try {
     $statement = $parser->parse('path/to/MT940.txt');
 }

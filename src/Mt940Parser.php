@@ -56,7 +56,8 @@ class Mt940Parser
                     $preparedArray[$i][] = $line;
                 }
                 else {
-                    $lastKey = end(array_keys($preparedArray[$i]));
+                    $arrayKeys = array_keys($preparedArray[$i]);
+                    $lastKey = end($arrayKeys);
                     $preparedArray[$i][$lastKey] .= $line;
                 }
             }
@@ -114,7 +115,8 @@ class Mt940Parser
                             break;
                         case '86':
                             $details = $this->parseTransactionDetails($tagContent);
-                            $lastKey = end(array_keys($statement[$key]['transactions']));
+                            $arrayKeys = array_keys($statement[$key]['transactions']);
+                            $lastKey = end($arrayKeys);
                             $statement[$key]['transactions'][$lastKey]['details'] = $details;
                             break;
                     }
