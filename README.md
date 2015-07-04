@@ -1,5 +1,6 @@
 # mBank MT940 parser
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ksdev/mbank-mt940-parser.svg?style=flat-square)](https://packagist.org/packages/ksdev/mbank-mt940-parser)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/ksdev-pl/mbank-mt940-parser/master.svg?style=flat-square)](https://travis-ci.org/ksdev-pl/mbank-mt940-parser)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/ksdev-pl/mbank-mt940-parser.svg?style=flat-square)](https://scrutinizer-ci.com/g/ksdev-pl/mbank-mt940-parser/code-structure)
